@@ -40,3 +40,13 @@ library
     , bytestring
     , text
     , vector
+
+executable split-video
+  hs-source-dirs: app
+  main-is: split-video.hs
+  build-depends: base, rpp, text, process, directory, filepath
+
+executable dump
+  hs-source-dirs: app
+  main-is: dump.hs
+  build-depends: base, rpp, text
